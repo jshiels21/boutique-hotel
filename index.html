@@ -1,0 +1,219 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDES1060 Project 2</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/61cb6293aa.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+   <header>
+    <div class="grid-container" data-magellan>
+      <div class="grid-x align-middle">
+        <div class="cell medium-2 show-for-medium">
+          <a href="#booking">Booking</a>
+        </div>
+        <div class="cell medium-2 show-for-medium">
+          <a href="#services">Services</a>
+        </div>
+        <div class="logo cell medium-4 text-center">
+          <a href="#"><img src="img/logo2.svg">
+        </div>
+        <div class="cell medium-2 show-for-medium">
+          <a href="#amenities">Amenities</a>
+        </div>
+        <div class="cell medium-2 show-for-medium">
+          <a href="#about">About</a>
+        </div>
+      </div>
+    </div>
+   </header>
+
+   <section class="hero" id="hero">
+    <img src="img/hero.png">
+    <div class="text-box" data-magellan>
+      <h1>Book today!</h1>
+      <p>Search available dates</p><a href="#booking">here</a>
+    </div>
+   </section>
+   <section class="amenities" id="amenities" data-magellan-target>
+    <h1>Amenities</h1>
+    <div class="grid-container fluid">
+      <div class="grid-x grid-margin-x">
+       <div class="card cell medium-4 small-order-1" style="width: 450px;">
+          <img src="img/pic1.png">
+          <div class="card-section">
+          <h4>Pet rooms</h4>
+          <p>Rooms designed specifically for your furry friend</p>
+          </div>
+      </div>
+      <div class="card cell medium-4 small-order-2" style="width: 450px;">
+          <img src="img/pic2.png">
+          <div class="card-section">
+          <h4>Gift shop</h4>
+          <p>Shop to stock up on your buddies favorite snacks and toys</p>
+          </div>
+      </div>
+      <div class="card cell medium-4 small-order-3" style="width: 450px;">
+          <img src="img/pic3.png">
+          <div class="card-section">
+          <h4>Relaxation</h4>
+          <p>Relax with your pet by our pool and yard</p>
+          </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="booking" id="booking" data-magellan-target>
+    <h1>Booking</h1>
+      <table class="table">
+      <thead>
+        <tr class="grid-x">
+          <th class="cell small-6">Check in:
+            <input type="text" class="span2" value="" id="dpd1">
+          </th>
+          <th class="cell small-6">Check out:
+            <input type="text" class="span2" value="" id="dpd2">
+          </th>
+        </tr>
+        <tr class="grid-x">
+          <th class="cell">
+            <input type="submit" class="submit button radius small" value="Check Availability" data-open="confirmation-overlay">
+          </th>
+        </tr>        
+      </thead>
+    </table>
+   </section>
+   <section class="services" id="services" data-magellan-target>
+    <h1>Services</h1>
+    <div class="grid-container fluid">
+      <div class="grid-x grid-margin-x">
+       <div class="card cell medium-4 small-order-1" style="width: 450px;">
+          <img src="img/pic4.png">
+          <div class="card-section">
+          <h4>Walks</h4>
+          <p>Daily walks to keep you pal in shape</p>
+          </div>
+      </div>
+      <div class="card cell medium-4 small-order-2" style="width: 450px;">
+          <img src="img/pic5.png">
+          <div class="card-section">
+          <h4>Training</h4>
+          <p>Top-notch trainers for all levels</p>
+          </div>
+      </div>
+      <div class="card cell medium-4 small-order-3" style="width: 450px;">
+          <img src="img/pic6.png">
+          <div class="card-section">
+          <h4>Grooming</h4>
+          <p>Grooming to keep you pet looking sharp</p>
+          </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="reviews">
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x">
+        <div class="cell medium-4">
+          <img src="img/pic9.png" id="cat">
+        </div>
+        <div class="cell medium-4">
+          <h2>Reviews</h2>
+          <h3>Martha H.<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h3>
+          <p>Perfect Pet took wonderful care of my cats while I was away. Thank you!</p>
+         <h3>Tom P.<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></h3>
+          <p>My dog was so well-behaved after his training classes at Perfect Pet!</p>
+         <h3>Brook S.<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h3>
+        <p>Loved spending time with my pooch at Perfect Pet!</p>
+      </div>
+      <div class="cell medium-4">
+       <img src="img/pic10.png" id="hamster">
+     </div>
+   </div>
+ </div>
+  </section>
+   <section class="about" id="about" data-magellan-target>
+    <div class="grid-container">
+    <div class="grid-x grid-margin-x grid-margin-y align-middle">
+      <div class="cell medium-4 small-order-1 medium-order-2">
+        <img src="img/pic7.jpg">
+      </div>
+      <div class="cell medium-7 small-order-2 medium-order-1">
+        <h1>About</h1>
+        <p>Perfect Pet Resort is designed for the pet owner that either wants to spend quality time with their pet or leave their pet in trusted hands while they are away. Spend the day relaxing with your furry bff at our pool or enroll them in our top-notch training classes while you are on vacation. From developing bonds to high-quality care, perfect pet has someting for everyone!</p>
+      </div>
+     </div>
+   </div>
+   </section>
+   <section class="footer">
+    <grid-container class="grid-x grid-margin-x grid-margin-y align-middle">
+      <img class="cell medium-3" src="img/logo2.svg">
+      <div class="cell medium-7">
+        <ul>
+          <li>FAQs</li>
+          <li>About</li>
+          <li>Reviews</li>
+          <li>Gallery</li>
+        </ul>
+      </div>
+     </grid-container>
+     <div class="center">
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-facebook-square"></i>
+      <i class="fab fa-twitter"></i>
+     </div>
+    </section>
+    <!--
+
+    - overlay window with spans used to show data from datepicker
+    - edit the grid however you would like to fit your layout, but
+    - do not delete the <span class="dpd1"></span> and <span class="dpd2"></span> tags, these are used to show the user the dates they selected
+    - this section can go anywhere in your code, but to keep things organized, place it after the section where you have your date picker form
+
+    -->
+
+    <div id="confirmation-overlay" class="reveal" data-reveal>
+      <div class="grid-x">
+        <div class="cell">
+          <div class="overlay">
+            <h1>Success</h1>
+            <h2>You've booked a room from <span class="dpd1"></span> to <span class="dpd2"></span>.</h2>
+          </div>
+        </div>
+      </div>
+      <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span></button>
+    </div>
+
+    <!--
+
+    - do not delete anything below this line
+    - do not place any code below this line
+
+    -->
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation-datepicker.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+
+</html>
